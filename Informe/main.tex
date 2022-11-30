@@ -151,8 +151,24 @@
 \end{mdframed}
 %
 \newpage
-\section{Ejercicios 1, 2 y 3}
+\section{Ejercicio 1}
 %
+Como es iid:
+
+\begin{equation*}
+	\begin{split}
+		R_x(\tau)&=\sigma_x^2\cdot\delta(\tau)\\
+		S_x(e^{j2\pi f})&=\mathfrak{F}\left\{R_x(\tau)\rigth\}\\
+		S_x(e^{j2\pi f})&=\mathfrak{F}\left\{\sigma_x^2\cdot\delta(\tau)\rigth\}\\
+		S_x(e^{j2\pi f})&=\sigma_x^2\cdot\mathfrak{F}\left\{\delta(\tau)\rigth\}\\
+		S_x(e^{j2\pi f})&=\sigma_x^2\cdot1\\
+		S_x(e^{j2\pi f})&=\sigma_x^2
+	\end{split}
+\end{equation*}
+
+La TFD transforma un arreglo de muestras del tiempo a un arreglo de muestras de frecuencia, del mismo largo.
+Aumentar las muestres tomadas de nuestra secuencia nos daría mas muestras del espectro.
+
 Tras definir los datos, las secuencias y los vectores a transmitir, se los plotea juntos,
 como se muestra en la figura \ref{fig:datos}.
 Las señales fueron renombradas, a los datos X1 y X2 se los llama d1 y d2 respectivamente.
