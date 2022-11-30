@@ -1,0 +1,10 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Ejercicios}{2}{section.1}%
+\contentsline {section}{\numberline {2}Ejercicios 1, 2 y 3}{3}{section.2}%
+\contentsline {section}{\numberline {3}Ejercicio 4}{4}{section.3}%
+\contentsline {section}{\numberline {4}Ejercicio 5}{4}{section.4}%
+\contentsline {section}{\numberline {5}Aumentar progresivamente el nivel de ruido}{6}{section.5}%
+\contentsline {section}{\numberline {6}Optativos}{14}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Aumentar L}{14}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Calculo teórico del filtro}{16}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Ruido no blanco}{16}{subsection.6.3}%
