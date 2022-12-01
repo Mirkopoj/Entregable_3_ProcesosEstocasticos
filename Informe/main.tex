@@ -180,6 +180,20 @@ Aumentar las muestres tomadas de nuestra secuencia nos daría mas muestras del e
 
 \clearpage
 \section{Ejercicio 3}
+\label{E3}
+
+Calculando la desviación estándar utilizando el 
+estimador mostrado en la ecuación \ref{Var}
+\begin{equation}
+	\begin{split}
+		s^2=
+		\frac{1}{N}
+		\cdot\sum_{f=0}^{N}
+		(S_x(e^{j2\pi f})-\mu)^2\\
+		\text{con }\mu=\sigma_x^2=1
+	\end{split}
+	\label{Var}
+\end{equation}
 
 \begin{figure}[!ht]
 \centering
@@ -218,15 +232,14 @@ Aumentar las muestres tomadas de nuestra secuencia nos daría mas muestras del e
 \end{figure}
 
 \clearpage
-\begin{equation*}
-	\begin{split}
-		Var \left[X_n(t)\right]=1\\
-		\\
-		Var\left[\frac{\sum_{n=0}^{N}X_n(t)}{N}\right]&=\frac{1}{N^2}\cdot Var\left[\sum_{n=0}^{N}X_n(t)\right]\\
-		&=\frac{1}{N^{\cancel{2}}}\cdot \cancel{N}\cdot Var\left[X_n(t)\right]\\
-		&=\frac{1}{N}\cdot Var\left[X_n(t)\right]\\
-		Var\left[\frac{\sum_{n=0}^{N}X_n(t)}{N}\right]&=\frac{1}{N}
-	\end{split}
-\end{equation*}
+\section{Ejercicio 4}
+
+Teniendo en cuenta los resultados de la sección
+\ref{E3}.
+Podemos ver como los periodogramas generan una 
+aproxima con media en el espectro real, pero su
+varianza resulta muy grande. Esta, sin embargo, 
+se puede reducir, promediando los periodogramas
+de múltiples realizaciones.
 
 \end{document}
